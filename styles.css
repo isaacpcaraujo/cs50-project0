@@ -1,0 +1,139 @@
+.topnav {
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+.topnav-item {
+    margin: 10px;   
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-input {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    border: 1px solid #dfe1e5;
+    background: #ffffff;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(638px + 6px);
+    width: auto;
+    max-width: 584px;
+    min-width: 400px;
+    margin-top: 10px;
+    padding-left: 5px; 
+}
+
+.button-container {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.h1-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 15px;
+}
+
+.line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.p-advanced {
+    color: #333333;
+    font-size: 16px;
+    margin: 25px 15px;
+}
+
+.div-advanced {
+    margin: 20px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left{
+    width: 200px;
+}
+
+.right {
+    width: 385px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 585px;
+}
+
+.button-advanced {
+    background-color: #4d90fe;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button-advanced:hover {
+    background-color: #357ae8;
+}
